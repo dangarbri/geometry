@@ -1,0 +1,10 @@
+Makefile
+config.h
+*~
+stamp*
+*.status
+*.log
+*.cache
+*.Po
+src/geometry
+*.o

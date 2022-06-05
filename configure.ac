@@ -15,7 +15,7 @@ AC_CONFIG_HEADERS([config.h])
 AC_PROG_CXX
 
 # Checks for libraries.
-AC_CHECK_LIB([sdl2], [SDL_RenderDrawLine], [], [AC_MSG_ERROR([Need SDL2 to compile this program])])
+AC_CHECK_LIB([SDL2], [SDL_RenderDrawLine], [], [AC_MSG_ERROR([Need SDL2 to compile this program])])
 
 # Checks for header files.
 

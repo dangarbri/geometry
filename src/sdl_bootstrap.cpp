@@ -1,7 +1,5 @@
 #include "sdl_bootstrap.h"
-#ifdef VERBOSE
 #include <iostream>
-#endif
 
 void SDL_Bootstrap::Initialize(const char* title, const int width, const int height) {
 #ifdef VERBOSE

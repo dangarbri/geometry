@@ -1,6 +1,6 @@
 /* config.h.in.  Generated from configure.ac by autoheader.  */
 
-/* Define to 1 if you have the `sdl2' library (-lsdl2). */
+/* Define to 1 if you have the `SDL2' library (-lSDL2). */
 #undef HAVE_LIBSDL2
 
 /* Name of package */

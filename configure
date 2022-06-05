@@ -4941,14 +4941,14 @@ fi
 
 
 
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for SDL_RenderDrawLine in -lsdl2" >&5
-printf %s "checking for SDL_RenderDrawLine in -lsdl2... " >&6; }
-if test ${ac_cv_lib_sdl2_SDL_RenderDrawLine+y}
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: checking for SDL_RenderDrawLine in -lSDL2" >&5
+printf %s "checking for SDL_RenderDrawLine in -lSDL2... " >&6; }
+if test ${ac_cv_lib_SDL2_SDL_RenderDrawLine+y}
 then :
   printf %s "(cached) " >&6
 else $as_nop
   ac_check_lib_save_LIBS=$LIBS
-LIBS="-lsdl2  $LIBS"
+LIBS="-lSDL2  $LIBS"
 cat confdefs.h - <<_ACEOF >conftest.$ac_ext
 /* end confdefs.h.  */
 
@@ -4966,21 +4966,21 @@ return SDL_RenderDrawLine ();
 _ACEOF
 if ac_fn_c_try_link "$LINENO"
 then :
-  ac_cv_lib_sdl2_SDL_RenderDrawLine=yes
+  ac_cv_lib_SDL2_SDL_RenderDrawLine=yes
 else $as_nop
-  ac_cv_lib_sdl2_SDL_RenderDrawLine=no
+  ac_cv_lib_SDL2_SDL_RenderDrawLine=no
 fi
 rm -f core conftest.err conftest.$ac_objext conftest.beam \
     conftest$ac_exeext conftest.$ac_ext
 LIBS=$ac_check_lib_save_LIBS
 fi
-{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: $ac_cv_lib_sdl2_SDL_RenderDrawLine" >&5
-printf "%s\n" "$ac_cv_lib_sdl2_SDL_RenderDrawLine" >&6; }
-if test "x$ac_cv_lib_sdl2_SDL_RenderDrawLine" = xyes
+{ printf "%s\n" "$as_me:${as_lineno-$LINENO}: result: $ac_cv_lib_SDL2_SDL_RenderDrawLine" >&5
+printf "%s\n" "$ac_cv_lib_SDL2_SDL_RenderDrawLine" >&6; }
+if test "x$ac_cv_lib_SDL2_SDL_RenderDrawLine" = xyes
 then :
   printf "%s\n" "#define HAVE_LIBSDL2 1" >>confdefs.h
 
-  LIBS="-lsdl2 $LIBS"
+  LIBS="-lSDL2 $LIBS"
 
 else $as_nop
   as_fn_error $? "Need SDL2 to compile this program" "$LINENO" 5
